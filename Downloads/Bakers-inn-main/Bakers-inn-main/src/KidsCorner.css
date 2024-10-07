@@ -1,0 +1,147 @@
+.kids-crner .kids {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.kids-crner .kids .img {
+  width: 50%;
+}
+.kids-crner .kids .img img {
+  width: 100px;
+}
+.kids-crner .spaceship {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background: #018BF1;
+  margin: 30px;
+  gap: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+.kids-crner .spaceship .text {
+  color: white;
+  width: 30%;
+}
+.kids-crner .spaceship .text button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+}
+.kids-crner .spaceship .text p {
+  padding: 10px;
+}
+.kids-crner .spaceship .img {
+  width: 60%;
+  display: flex;
+  justify-content: right;
+}
+.kids-crner .spaceship .img img {
+  width: 500px;
+  height: 500px;
+}
+
+.kids-crner .risk {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.kids-crner .risk .img {
+  width: 50%;
+}
+.kids-crner .risk .img img {
+  width: 100px;
+}
+.kids-crner .risk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background: #FF4655;
+  margin: 30px;
+  gap: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+.kids-crner .risk .text {
+  color: white;
+  width: 30%;
+}
+.kids-crner .risk .text button {
+  background: #FF4655;
+  font-size: 20px;
+  font-weight: 750;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #FF4655;
+  border-radius: 5px;
+}
+.kids-crner .risk .text p {
+  padding: 10px;
+}
+.kids-crner .risk .img {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+}
+.kids-crner .risk .img img {
+  width: 500px;
+  height: 500px;
+}
+
+.pacman {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.pacman .img {
+  width: 50%;
+}
+.pacman .img img {
+  width: 100px;
+}
+
+.pacman {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background: #261B6C;
+  margin: 30px;
+  gap: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+.pacman .text {
+  color: white;
+  width: 30%;
+}
+.pacman .text button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+}
+.pacman .text p {
+  padding: 10px;
+}
+.pacman .img {
+  width: 60%;
+  display: flex;
+  justify-content: left;
+}
+.pacman .img img {
+  width: 500px;
+  height: 500px;
+}/*# sourceMappingURL=KidsCorner.css.map */

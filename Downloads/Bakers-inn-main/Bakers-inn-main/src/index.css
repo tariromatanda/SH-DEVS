@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 25px;
+  font-weight: 750;
+  list-style: none;
+}
+.navbar ul li {
+  color: #261B6C;
+}
+.navbar ul li button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #261B6C;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  margin: 30px;
+  background-color: #261B6C;
+  padding: 20px;
+  background-image: url("./bakers-inn-resourses/African Pattern 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border: #261B6C 2px solid;
+  border-radius: 5px;
+}
+.hero .images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.hero .images img {
+  width: 100%;
+}
+.hero .text {
+  text-align: left;
+  padding: 10px;
+  color: #fff;
+}
+.hero .text h1 {
+  font-size: 60px;
+}
+.hero .text p {
+  font-size: 20px;
+}
+.hero .text button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.hero .text span {
+  -webkit-text-decoration: underline 4px #B2904C;
+          text-decoration: underline 4px #B2904C;
+}
+
+.about {
+  margin: 50px 30px;
+  color: #261B6C;
+  padding: 50px 0;
+}
+.about .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.about .img img {
+  width: 24%;
+}
+.about .text {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 40px;
+  margin: 40px;
+}
+.about .text h1 {
+  width: 50%;
+  font-size: 30px;
+  color: #261B6C;
+  font-weight: 900;
+}
+.about .text .p {
+  display: block;
+}
+.about .text .p p {
+  font-size: 20px;
+}
+.about .text button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.products {
+  background: #faf3f3;
+  padding: 50px;
+  margin: 30px 0;
+  text-align: center;
+}
+.products button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.products h1 {
+  color: #261B6C;
+}
+.products .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+  padding: 30px;
+}
+.products .images img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.products .images p {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  padding: 20px;
+  background: linear-gradient(transparent, black);
+  width: 300px;
+  color: #fff;
+  text-align: left;
+}
+
+.book {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  gap: 30px;
+  width: 100%;
+}
+.book button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+}
+.book .img {
+  width: 50%;
+  margin: 30px 0px 30px 0px;
+}
+.book .img img {
+  width: 600px;
+}
+.book .text {
+  width: 50%;
+  color: #261B6C;
+}
+.book .text h1 {
+  font-size: 30px;
+}
+.book .text P {
+  padding: 10px 200px 10px 0;
+}
+
+.donations {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 30px;
+  background: #faf3f3;
+  gap: 30px;
+}
+.donations .img {
+  width: 50%;
+  margin: 30px 0px 30px 0px;
+}
+.donations .img img {
+  width: 600px;
+}
+.donations .text {
+  width: 50%;
+  color: #261B6C;
+}
+.donations .text h1 {
+  font-size: 30px;
+}
+.donations .text P {
+  padding: 10px 200px 10px 0;
+}
+.donations .text button {
+  background: #B2904C;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #B2904C;
+  border-radius: 5px;
+}
+
+.kidscorner {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  background: #261B6C;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.kidscorner .text {
+  text-align: center;
+}
+.kidscorner .text p {
+  padding: 10px 200px;
+}
+.kidscorner .text button {
+  background: #FF4655;
+  font-size: 20px;
+  font-weight: 750;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #FF4655;
+  border-radius: 5px;
+}
+.kidscorner .img {
+  width: 60%;
+}
+.kidscorner .img .img1 {
+  padding: 0 0 80px 0;
+}
+.kidscorner .img .img1 img {
+  width: 200px;
+}
+.kidscorner .img .img2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.kidscorner .img .img2 img {
+  width: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 800px;
+  height: auto;
+  background: #faf3f3;
+  margin: 100px auto;
+  word-break: break-all;
+  border: 1px solid #B2904C;
+  box-shadow: 10px 10px 10px #261B6C;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.active-tabs {
+  background-image: linear-gradient(to top right, #B2904C, #9288d4);
+  color: black;
+}
+
+.content {
+  background-image: linear-gradient(to top right, #B2904C, #9288d4);
+  color: white;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.active-content {
+  display: block;
+}
+
+.container:hover {
+  box-shadow: 10px 10px 10px #9288d4;
+}
+
+.promotions {
+  display: flex;
+  background: #B2904C;
+}
+.promotions .text {
+  width: 50%;
+}
+.promotions form {
+  position: relative;
+}
+.promotions form input {
+  position: relative;
+  width: 100%;
+  background: #cab488;
+  padding: 10px 100px;
+}
+.promotions form ::-moz-placeholder {
+  -moz-columns: #fff;
+       columns: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+.promotions form ::placeholder {
+  -moz-columns: #fff;
+       columns: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+.promotions form button {
+  position: absolute;
+  right: 0;
+}
+.promotions button {
+  background: #FF4655;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #B2904C;
+  border-radius: 5px;
+  border-radius: 5px;
+}/*# sourceMappingURL=index.css.map */

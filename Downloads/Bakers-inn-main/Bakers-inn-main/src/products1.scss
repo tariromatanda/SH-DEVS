@@ -1,0 +1,234 @@
+body{
+    overflow-x: hidden;
+    padding: 0 30px;
+    color: #261B6C;
+ 
+}
+
+.products-hero{
+
+  img{
+    width: 100%;
+    position: relative;
+  }
+  h1{
+    position: absolute;
+    bottom: -90px;
+    margin-left: 20px;
+    color: #f7f5e8;
+    background: linear-gradient();
+  }
+}
+ .ourProducts {
+
+     margin: 60px 0;
+    h2 {
+      text-align: center;
+      font-family: bold;
+      font-style: normal;
+      
+      line-height: 73px;
+      color: #261b6c;
+    }
+
+    .bloc-tabs {
+      display: flex;
+      justify-content: space-evenly;
+
+      .tabs {
+        padding: 18px;
+        text-align: center;
+        cursor: pointer;
+
+        li {
+          list-style: none;
+          font-family: "bold";
+          font-style: normal;
+          
+          line-height: 49px;
+          color: #261b6c;
+        }
+      }
+
+      .active-tabs {
+        border-bottom: 5px solid #b2904c;
+      }
+    }
+
+    .content-tabs {
+      .content {
+        display: none;
+      }
+
+      .active-content {
+        display: block;
+
+        .outerBread {
+            overflow-x: scroll;
+            scrollbar-width: none;
+          
+            overflow-y: hidden;
+          .innerBread {
+            .card {
+              background: #f7f5e8;
+              border-radius: 7px;
+              border: none;
+              margin-left: 19px;
+              padding: 0 5px;
+              height: 100%;
+              text-align: center;
+
+              img {
+               margin: 0 auto;
+                width: 100%;
+                transform: matrix(1.1);
+              }
+
+              .card-body {
+                h5 {
+                  font-family: "bold";
+                  
+                  padding: 0 10px;
+                  line-height: 35px;
+                  color: #261b6c;
+                }
+
+                p {
+                  font-family: medium;
+                  
+                  line-height: 29px;
+                  text-align: center;
+                  color: #261b6c;
+                  opacity: 0.9;
+                }
+              }
+            }
+          }
+        }
+
+        .outermeat {
+          .innermeat {
+            .card {
+              background: #f7f5e8;
+              border-radius: 7px;
+              border: none;
+              margin-left: 19px;
+              padding: 0 5px;
+              height: 100%;
+              text-align: center;
+
+              img {
+                padding: 0 5%;
+              }
+
+              .card-body {
+                h5 {
+                  font-family: "Montserrat";
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 30px;
+                  padding: 0 10px;
+                  line-height: 35px;
+                  color: #261b6c;
+                }
+
+                p {
+                  font-family: "Avenir LT Std";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 21px;
+                  line-height: 29px;
+                  text-align: center;
+                  color: #261b6c;
+                  opacity: 0.9;
+                }
+              }
+            }
+          }
+        }
+
+        
+        .outerScones {
+          .innerScones {
+            .card {
+              background: #f7f5e8;
+              border-radius: 7px;
+              border: none;
+              margin-left: 19px;
+              padding: 0 5px;
+              height: 100%;
+              text-align: center;
+
+              img {
+                padding: 0 5%;
+              }
+
+              .card-body {
+                h5 {
+                  font-family: "Montserrat";
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 30px;
+                  padding: 0 10px;
+                  line-height: 35px;
+                  color: #261b6c;
+                }
+
+                p {
+                  font-family: "Avenir LT Std";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 21px;
+                  line-height: 29px;
+                  text-align: center;
+                  color: #261b6c;
+                  opacity: 0.9;
+                }
+              }
+            }
+          }
+        }
+
+        .outerDonut {
+          .innerDonut {
+            .card {
+              background: #f7f5e8;
+              border-radius: 7px;
+              border: none;
+              margin-left: 19px;
+              padding: 0 5px;
+              height: 100%;
+              text-align: center;
+
+              img {
+                padding: 0 5%;
+              }
+
+              .card-body {
+                h5 {
+                  font-family: "Montserrat";
+                  font-style: normal;
+                  font-weight: 800;
+                  font-size: 30px;
+                  padding: 0 10px;
+                  line-height: 35px;
+                  color: #261b6c;
+                }
+
+                p {
+                  font-family: "Avenir LT Std";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 21px;
+                  line-height: 29px;
+                  text-align: center;
+                  color: #261b6c;
+                  opacity: 0.9;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

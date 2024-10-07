@@ -1,0 +1,64 @@
+.kidshero {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.maze{
+width: 100%;
+background-color: #018BF1;
+padding: 5% 5% 0 5%;
+color: #fff;
+
+img{
+    width: 100%;
+    
+}
+}
+
+.riskway{
+    width: 100%;
+    background: #FF4655;
+        color: #fff;
+        padding-left: 5%;
+        margin: 10% 0;
+
+    .button{
+        background-color:#F7F5E8;
+        color: #FF4655;
+    }
+    img{
+        width: 100%;
+        
+    }
+}
+
+.pacman{
+width: 100%;
+background: #261B6C;
+color: #fff;
+padding-left:5%;
+margin: 10% 0;
+img{
+    width: 100%;
+   
+}
+}
+
+@media(max-width:900px){
+    .maze,.pacman,.riskway{
+        padding: 7% 3%;
+    }
+}
+
+@media(max-width:600px){
+    .pacman,.maze,.riskway{
+    text-align: center;
+
+    button{
+        margin: 10px 0;
+    }
+    }
+}

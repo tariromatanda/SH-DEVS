@@ -1,0 +1,461 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+ 
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 750;
+    list-style: none;
+
+    li{
+      color: #261B6C;
+
+      button{
+        background: #B2904C;
+        font-size: 20px;
+        font-weight: 750;
+        color: #261B6C;
+        padding:10px 20px;
+        border: 2px solid #B2904C;
+        border-radius: 5px;
+        font-weight: 750;
+
+      }
+    }
+  }
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  margin:30px ;
+  background-color: #261B6C;
+  padding: 20px;
+  background-image: url("./bakers-inn-resourses/African Pattern 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border: #261B6C 2px solid;
+  border-radius: 5px;
+  
+.images{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    img{
+      width: 100%;
+    }
+  }
+  .text{
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+    h1{
+      font-size: 60px;
+      
+    }
+    p{
+      font-size: 20px;
+     
+    }
+    button{
+      background: #B2904C;
+      font-size: 20px;
+      font-weight: 750;
+      color: #fff;
+      padding:10px 20px;
+      border: 2px solid #B2904C;
+      border-radius: 5px;
+      margin:10px 0;
+
+    }
+    span{
+      text-decoration: underline 4px #B2904C;
+    }
+   
+  }
+}
+
+.about{
+  margin: 50px 30px;
+  color: #261B6C;
+  padding: 50px 0;
+
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  
+    img{
+      width: 24%;
+    }
+   }
+
+ .text{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 40px;
+  margin:40px;
+  h1{
+    width: 50%;
+    font-size: 30px;
+    color: #261B6C;
+    font-weight: 900;
+  }
+  .p{
+    display: block;
+    p{
+      font-size: 20px;
+    }
+  }
+  button{
+    background: #B2904C;
+    font-size: 20px;
+    font-weight: 750;
+    color: #fff;
+    padding:10px 20px;
+    border: 2px solid #B2904C;
+    border-radius: 5px;
+    margin: 10px 0;
+    
+
+  }
+
+ }
+}
+
+// OUR PRODUCTS****************
+
+.products{
+  background: #faf3f3;
+  padding: 50px;
+  margin: 30px 0 ;
+  text-align: center;
+
+  button{
+    background: #B2904C;
+    font-size: 20px;
+    font-weight: 750;
+    color: #fff;
+    padding:10px 20px;
+    border: 2px solid #B2904C;
+    border-radius: 5px;
+    margin: 30px 0;
+    
+
+  }
+  h1{
+color: #261B6C;
+  }
+
+
+  .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+
+    img{
+      width: 300px;
+      height: 300px;
+      position: relative;
+    }
+
+    p{
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      padding: 20px;
+      background: linear-gradient(transparent, black);
+      width: 300px;
+      color: #fff;
+      text-align: left;
+    }
+  }
+}
+
+// BOOK A TOUR SECTION ***************
+
+.book{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  gap: 30px;
+width: 100%;
+  button{
+    background: #B2904C;
+    font-size: 20px;
+    font-weight: 750;
+    color: #fff;
+    padding:10px 20px;
+    border: 2px solid #B2904C;
+    border-radius: 5px;
+   
+    
+
+  }
+
+  .img{
+    width: 50%;
+    margin: 30px 0px 30px 0px;
+
+    img{
+      width: 600px;
+    }
+  }
+  .text{
+    width: 50%;
+    color: #261B6C;
+
+    h1{
+      font-size: 30px;
+    }
+
+    P{
+      padding: 10px 200px 10px 0;
+    }
+
+    
+  }
+}
+
+// donations ******************
+
+.donations{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:50px 30px;
+  background: #faf3f3;
+  gap: 30px;
+
+  .img{
+    width: 50%;
+    margin: 30px 0px 30px 0px;
+    img{
+      width: 600px;
+    }
+  }
+
+  .text{
+    width: 50%;
+    color: #261B6C;
+
+    h1{
+      font-size: 30px;
+    }
+
+    P{
+      padding: 10px 200px 10px 0;
+    }
+
+    button{
+      background: #B2904C;
+      font-size: 20px;
+      font-weight: 750;
+      color: #fff;
+      padding:10px 20px;
+      border: 2px solid #B2904C;
+      border-radius: 5px;
+     
+      
+  
+    }
+  }
+}
+
+// KIDS CORNER ********************
+
+.kidscorner{
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  background: #261B6C;
+  color: #fff;
+  
+  justify-content: center;
+  align-items: center;
+
+  .text{
+    text-align: center;
+   
+    p{
+      padding: 10px 200px;
+    }
+    button{
+      background:#FF4655;
+      font-size: 20px;
+      font-weight: 750;
+      color: #fff;
+      padding:10px 20px;
+      border: 2px solid #FF4655;
+      border-radius: 5px;
+     
+      
+  
+    }
+  }
+
+  .img{
+    width: 60%;
+
+    .img1{
+      padding: 0 0 80px 0;
+    img{
+      width: 200px;
+    }
+    }
+
+    .img2{
+display: flex;
+justify-content: space-evenly;
+
+
+img{
+  width: 80px;
+}
+    }
+  }
+}
+
+// Tabs***************
+
+.container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 800px;
+  height: auto;
+  background: #faf3f3;
+  margin: 100px auto;
+  word-break: break-all;
+  border: 1px solid #B2904C;
+  box-shadow: 10px 10px 10px #261B6C;
+}
+.bloc-tabs{
+  display: flex;
+
+  
+  
+  
+}
+
+.tabs{
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  // width: 50%;
+  // outline: none;
+  // box-sizing: content-box;
+}
+
+.active-tabs{
+  background-image:linear-gradient(to top right, #B2904C, #9288d4 );
+  color:black ;
+}
+.content{
+  background-image:linear-gradient(to top right, #B2904C, #9288d4 ) ;
+  color: white;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.content-tabs{
+  flex-grow: 1;
+}
+.active-content{
+  display: block;
+}
+
+.container:hover{
+  box-shadow: 10px 10px 10px #9288d4;
+
+}
+
+.promotions{
+  display:flex;
+  background:#B2904C;
+  .text{
+    width: 50%;
+  }
+
+  form{
+    position: relative;
+    
+input{
+  position: relative;
+  width: 100%;
+  background: #cab488;
+  padding: 10px 100px;
+
+}
+
+::placeholder{
+  columns: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+button{
+  position: absolute;
+  right:0 ;
+}
+  }
+
+  button{
+  
+      background:#FF4655;
+     
+      
+      color: #fff;
+      padding:10px 20px;
+      border: 1px solid #B2904C;
+      border-radius: 5px;
+     
+      
+  
+    
+    border-radius: 5px;
+   
+    
+
+  }
+}
+
+.footer{
+  background: #261B6C;
+  color: #fff;
+}

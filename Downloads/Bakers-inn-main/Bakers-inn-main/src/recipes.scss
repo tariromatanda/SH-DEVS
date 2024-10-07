@@ -1,0 +1,168 @@
+#tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  margin: 0;
+
+  button{
+    padding: 10px 20px;
+  }
+}
+
+#tabs button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1)5%;
+  align-items: center;
+}
+
+#tabs button .indicator {
+  width: 10%;
+  height: 5px;
+  background: #BA8F55;
+  position: absolute;
+  bottom: -10px;
+}
+
+.tab-content {
+  padding: 10px;
+}
+#hr{
+  position: relative;
+}
+.cards1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+}
+
+#card{
+  display: flex;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+.mode{
+  display: flex;
+  gap: 3%;
+
+  .texts{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .te{
+      width: 50%;
+    }
+  }
+
+  .text{
+    width: 65vw;
+
+    .serves{
+      display: flex;
+      gap: 10%;
+    }
+    .ing{
+      display: flex;
+      gap: 5%;
+    }
+  }
+}
+  .images{
+width: 35vw;
+    .image1{
+
+
+img{
+  width: 100%;
+  height: 40vh;
+}
+    }
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
+
+  }
+    .imge{
+      display: flex;
+      gap: 10px;
+    
+      align-items: center;
+    }
+  }
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  height: 90vh;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  background: #000;
+  padding: 0 10px 7px 10px ;
+  border-radius: 50%;
+  color: #fff;
+  
+}
+
+h1{
+  font-family: black;
+}
+.tab-content{
+  .cards1{
+    .card{
+      color: #261B6C;
+      h1{
+        font-family: bold;
+        font-size: 25px;
+
+      }
+
+      p{
+          font-family: bold;
+         
+        }
+    }
+  }
+}

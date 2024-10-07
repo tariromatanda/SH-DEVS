@@ -1,0 +1,17 @@
+.Recipe .text {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background: linear-gradient(transparent, black);
+  z-index: 10;
+  color: white;
+}
+.Recipe .img {
+  position: relative;
+}
+.Recipe .img img {
+  position: relative;
+}/*# sourceMappingURL=RecipePage.css.map */
